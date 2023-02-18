@@ -2,7 +2,7 @@ class ReadFile{
 public static void main(String[] args) throws IOException {
         //launch();
 
-        File file = new File("C:\\Users\\Admin\\Desktop\\forActivityPoint.txt");
+        File file = new File("text.txt");
         Scanner scanner = new Scanner(file);
         String[] arr = new String[1000];
         int counter = 0;
